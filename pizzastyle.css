@@ -19,37 +19,45 @@ h1 + p { margin-top: -30px; }
 h2 + p { margin-top: -25px; }
 p + p { margin-top: -25px; }
 img {
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 200px;
     border-radius: 1em;
-    border: 3px solid #f2f5f4;
-    width: 10em;
-    margin: -18px;
-    background-color: #000000;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .pizza {
     margin: 0.5em;
-    padding: 1em;
-    /* border-radius: 1em;
-    border: 1px solid #f2f5f4; */
+    padding-inline: ;
+    border-radius: 1em;
+    border: 1px solid #f2f5f4;
     flex:1;
-width: 46%;
     
 }
 .moon{
-    margin-top:0.5em;
-    margin-bottom: 0.6;
-    width: 370px;
+    margin-top:auto;
+    margin-bottom: auto;
+    width: auto;
+    justify-content: center;
 }
 
 @media(min-width: 650px){
     .moon{
         display: flex;
         
-
-    
     }
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 1em;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
 }
 .sun {
     text-align: center;
@@ -62,7 +70,7 @@ width: 46%;
     padding: 1em;
     /* border-radius: 1em; */
     /* border: 1px solid #f2f5f4; */
-    text-align: justify;
+    text-align: center;
     width: 370px;
 }
 1 https://media.istockphoto.com/id/1494273340/photo/pizza-with-pepperoni-arugula-ketchup-tomatoes-and-cheese-in-a-plate-on-a-white-background.jpg?s=1024x1024&w=is&k=20&c=gqs70lkq_YRSX4lnAyjNoUZXiYY_5Nr3uwcy5XIZe6M=
